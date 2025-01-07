@@ -22,8 +22,8 @@ docker images
 
 You should see something similar to it.
 
-REPOSITORY            TAG       IMAGE ID       CREATED              SIZE
-jupyter-book-docker   latest    5e55ad62595c   About a minute ago   6.66GB
+  REPOSITORY            TAG       IMAGE ID       CREATED              SIZE
+  jupyter-book-docker   latest    5e55ad62595c   About a minute ago   6.66GB
 
 
 
@@ -35,8 +35,8 @@ docker ps
 
 You should see,
 
-CONTAINER ID   IMAGE                        COMMAND                  CREATED         STATUS                   PORTS                    NAMES
-ec84445dbc75   jupyter-book-docker:latest   "tini -g -- start-no…"   8 seconds ago   Up 8 seconds (healthy)   0.0.0.0:8889->8888/tcp   jupyter-book-docker-notebook-1
+  CONTAINER ID   IMAGE                        COMMAND                  CREATED         STATUS                   PORTS                    NAMES
+  ec84445dbc75   jupyter-book-docker:latest   "tini -g -- start-no…"   8 seconds ago   Up 8 seconds (healthy)   0.0.0.0:8889->8888/tcp   jupyter-book-docker-notebook-1
 
 
 You are ready now to use your jupyter lab and jupyter-book.
